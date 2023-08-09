@@ -7,12 +7,12 @@ const Navbar = () => {
         <div className='text-white text-xl font-bold'>AlgoLab</div>
         <ul className='flex space-x-4'>
           <li>
-            <a href='#' className='text-white'>
+            <a href='/' className='text-white'>
               Home
             </a>
           </li>
           <li>
-            <a href='#' className='text-white'>
+            <a href='/problem' className='text-white'>
               Problems
             </a>
           </li>
