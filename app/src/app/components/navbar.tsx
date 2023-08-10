@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
@@ -7,19 +8,20 @@ const Navbar = () => {
         <div className='text-white text-xl font-bold'>AlgoLab</div>
         <ul className='flex space-x-4'>
           <li>
-            <a href='/' className='text-white'>
+            
+            <Link href='/' className='text-white'>
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href='/problem' className='text-white'>
+            <Link href='/problem' className='text-white'>
               Problems
-            </a>
+            </Link>
           </li>
           <li>
-            <a href='#' className='text-white'>
+            <Link href='/auth' className='text-white'>
               Login
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
