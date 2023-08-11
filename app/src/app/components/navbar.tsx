@@ -5,10 +5,12 @@ const Navbar = () => {
   return (
     <div className='w-full bg-gray-600'>
       <nav className='flex items-center justify-between h-16 px-4'>
-        <div className='text-white text-xl font-bold'>AlgoLab</div>
+        <div className='text-white text-xl font-bold select-none'>AlgoLab<span className='text-xxl'>
+          🔬
+          </span>
+          </div>
         <ul className='flex space-x-4'>
           <li>
-            
             <Link href='/' className='text-white'>
               Home
             </Link>
