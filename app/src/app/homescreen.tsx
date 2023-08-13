@@ -9,9 +9,9 @@ const Homescreen = (props: Props) => {
     //Using TailwindCSS documentation
     return (
       <div className='relative' style={{ height: availableHeight }}>
-        <div className='bg-red-500 absolute left-0 h-full w-[50%]'>
+        <div className='bg-gradient-to-r from-cyan-500 to-blue-500 absolute left-0 h-full w-[50%]'>
         </div>
-        <div className='bg-yellow-500 absolute right-0 h-full w-[50%]'>
+        <div className='bg-gradient-to-r from-blue-500 to-indigo-500 absolute right-0 h-full w-[50%]'>
         </div>
     </div>
   )

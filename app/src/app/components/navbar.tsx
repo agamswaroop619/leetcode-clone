@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <div className='w-full bg-gray-600'>
+    <div className='w-full bg-gradient-to-r from-black to-grey-800'>
       <nav className='flex items-center justify-between h-16 px-4'>
         <div className='text-white text-xl font-bold select-none'>AlgoLab<span className='text-xxl'>
           🔬
