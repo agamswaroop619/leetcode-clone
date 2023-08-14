@@ -14,13 +14,13 @@ export default function Authmodel({}: Props) {
       <div className='w-full sm:w-[450x] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] flex justify-center items-center'>
         <div className='relative w-full h-full mx-auto flex items-center justify-center'>
           <div className='bg-gradient-to-r from-black to-grey-900 rounded-full shadow relative w-[40%] bg-blue-600 Uto-slate-900 mx-6'>
-            <div className='flex justify-end p-2'>
+            <div className='flex p-2 flex-col relative flex-1'>
               <Link href='/'>
-              <button type='button' className='bg-transparent rounded-1g text-sm p-1.5 ml -auto inline-flex items-center hover:bg-gray-800•hover:text-white text-white'>
+              <button type='button' className='absolute bg-transparent rounded-1g text-sm p-1.5 ml-auto inline-flex items-center hover:text-gray-400 hover:font-bold text-white top-0 right-1'>
               X
               </button>
               </Link>
-              <Login></Login>
+            <Login/>
             </div> 
           </div>
         </div>
