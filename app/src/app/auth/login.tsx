@@ -9,6 +9,8 @@ const Login = (props: LoginProps) => {
         <form className='font-mono italic p-2'>
         <label className='p-2' htmlFor='email'>E-Mail</label>
         <input className='w-full rounded-full focus:ring-white border-2 outline text-black p-1' type='email' name='email' id='email' placeholder='example_email@mail.org' ></input>
+        <label className='p-2' htmlFor='password'>Password</label>
+        <input className='w-full rounded-full focus:ring-white border-2 outline text-black p-1' type='password' name='password' id='password' placeholder='********' ></input>
         </form>
     </div>
   )

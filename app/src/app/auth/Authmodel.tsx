@@ -16,7 +16,7 @@ export default function Authmodel({}: Props) {
           <div className='bg-gradient-to-r from-black to-grey-900 rounded-full shadow relative w-[70%] sm:w-[60%] lg:w-[40%] bg-blue-600 Uto-slate-900 mx-6'>
             <div className='overflow-hidden'>
               <Link href='/'>
-              <button type='button' className='absolute bg-transparent rounded-1g text-xl px-5 py-5 ml-auto inline-flex items-center hover:text-gray-400 hover:font-bold text-white top-0 right-1' >
+              <button type='button' className='absolute bg-transparent rounded-1g text-l p-5 ml-auto inline-flex items-center hover:text-gray-400 hover:font-bold text-white top-0 right-7' >
               X
               </button>
               </Link>
