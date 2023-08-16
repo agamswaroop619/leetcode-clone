@@ -4,11 +4,9 @@ type LoginProps = {}
 
 const Login = (props: LoginProps) => {
   return (
-    <div className='flex items-center justify-center'>
+    <div >
       <p className='text-xxl'>Sign In</p>
-      <form>
-
-      </form>
+        <input></input>
     </div>
   )
 }
