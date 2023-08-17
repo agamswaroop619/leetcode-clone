@@ -10,8 +10,8 @@ export default function Authmodel({}: Props) {
     //Using TailwindCSS documentation
   return (
 
-    <div className='absolute bg-opacity-60 h- w-full bg-black flex items-centre justify-center z-10' style={{ height: availableHeight }}>
-      <div className='w-full absolute top-[45%] left-[50%] translate-x-[-50%] translate-y-[-50%] flex justify-center items-center'>
+    <div className='absolute bg-opacity-60 w-full bg-black flex items-centre justify-center z-10' style={{ height: availableHeight }}>
+      <div className='w-full absolute top-[45%] left-[50%] translate-x-[-50%] translate-y-[-50%] flex justify-center items-center drop-shadow-2xl'>
         <div className='relative w-full h-full mx-auto flex items-center justify-center'>
           <div className='bg-gradient-to-r from-black to-grey-900 rounded-full shadow relative w-[70%] sm:w-[60%] lg:w-[40%] bg-blue-600 Uto-slate-900 mx-6'>
             <div className='overflow-hidden'>
